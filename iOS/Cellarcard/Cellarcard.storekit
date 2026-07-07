@@ -1,0 +1,40 @@
+{
+  "identifier": "storekit_config",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {},
+  "subscriptionGroups": [
+    {
+      "id": "group_cellarcard",
+      "localizations": [],
+      "name": "Cellarcard Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "3.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "com.shimondeitel.winecellar.pro.monthly",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Tasting note history, cellar value estimate, and unlimited bottle count",
+              "displayName": "Cellarcard Pro Monthly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.shimondeitel.winecellar.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Cellarcard Pro Monthly",
+          "subscriptionGroupID": "group_cellarcard",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
